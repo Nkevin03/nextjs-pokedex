@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`bg-blue-200 ${getPokemonFont.variable}`}>
-        <main className="relative w-full h-full flex items-center justify-center">
+        <main className="relative w-full h-full flex items-center justify-center overflow-hidden">
           <div className="">
             <div className="flex justify-center mb-5">
               <Image
